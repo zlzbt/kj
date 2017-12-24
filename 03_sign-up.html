@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>注册</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/03_sign-in.css">
+	<link rel="stylesheet" type="text/css" href="css/03_sign-up.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+<body>
+<div id="main">
+	<div id="header">
+		<div class="left">
+			<ul class="list">
+				<li>
+					<a href="04_firstPage.html">
+						<img src="img/logo.png">
+					</a>
+				</li>
+				<li><span>|</span>会员注册</li>
+			</ul>
+		</div>
+		<div class="right">
+			<a href="04_firstPage.html">返回首页</a>
+		</div>
+	</div>
+	<div id="body1">
+		<div class="form1">
+			<form action="#" method="post" id="form-register">
+				<div class="uname form-group">
+					<span class="input-group-addon"><i class="fa fa-user"></i></span>
+					<input type="text" name="uname" autocomplete required minlength="3" maxlength="12" autofocus placeholder="会员名">
+                    <span class="msg">用户名长度在3到12位之间</span>
+				</div>
+				<div class="upwd form-group">
+					<span class="input-group-addon"><i class="fa fa-unlock-alt"></i></span>
+					<input type="password" name="upwd" autocomplete required minlength="6" maxlength="12" autofocus placeholder="密码">
+					<span class="msg">密码长度在6到12位之间</span>
+				</div>
+				<div class="reupwd form-group">
+					<span class="input-group-addon"><i class="fa fa-unlock-alt"></i></span>
+					<input type="password" name="reupwd" autocomplete required minlength="6" maxlength="12" autofocus placeholder="密码">
+					<span class="msg">密码长度在6到12位之间</span>
+				</div>
+				<div class="checkcode form-group">
+					<div>
+						<span class="input-group-addon"><i class="fa fa-shield"></i></span>
+						<input type="text" placeholder="验证码">
+					</div>
+					<div class="change_vcode">
+						<!--<img class="change_img" src="img/entrance.jpg">-->
+						<img id="pic" src="data/03_code.php" class="change_img">
+						<!--<a href="#" class="change_vcode">看不清换一张</a>-->
+					</div>
+				</div>
+				<div class="change_vcode" style="color:#bbb; border: none;height: 10px; text-align: right;">
+					<span class="change_img" style="cursor: pointer;padding-right: 18px">点击更换验证码</span>
+				</div>
+				<div class="more">
+					<hr>
+					<span>更多资料</span>
+				</div>
+				<div class="com com-name">
+					<span>公司名称</span>
+					<input type="text" placeholder="公司名称">
+				</div>
+				<div class="com">
+					<span>公司传真</span>
+					<input type="text" placeholder="公司传真">
+				</div>
+				<div class="com">
+					<span>公司联系地址</span>
+					<input type="text" placeholder="公司联系地址">
+				</div>
+				<div class="com">
+					<span>公司邮政编码</span>
+					<input type="text" placeholder="公司邮政编码">
+				</div>
+				<div class="com">
+					<span>公司网址</span>
+					<input type="text" placeholder="公司网址">
+				</div>
+				<div class="sign form-group">
+					<input type="button" value="立即注册" id="bt-register">
+				</div>
+				<div>
+					<a href="03_sign-in.html">已有账号？</a>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div id="footer">
+		<p>  &nbsp;科技公司 版权所有 © 2008-2016 湘ICP备8888888</p>
+		<p>本页面内容为网站演示数据，前台页面内容都可以在后台修改。</p>
+	</div>
+</div>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/03_sign-up.js"></script>
+</html>

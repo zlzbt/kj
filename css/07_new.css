@@ -1,0 +1,179 @@
+#main>p{
+	width: 100%;
+	height: 120px;
+	color:#fff;
+	background: #62a8ea;
+	text-align: center;
+	line-height: 120px;
+	font-size: 35px;
+	font-weight: 300;
+	text-shadow: none;
+	margin-top: 3px;
+}
+div.content{
+	background: #f2f2f2;
+	width: 100%;
+	border-bottom: 1px solid #f2f2f2;
+	border-top: 1px solid #f2f2f2;
+	display: flex;
+	justify-content:space-between;
+}
+div.content>div{
+	background: #fff;
+	margin:30px 15px;
+}
+div.content>div:first-child{
+	width:70%;
+	padding: 40px 30px;
+	margin-left: 90px;
+}
+.list-into{
+	width:100%;
+	margin: 0 auto;
+}
+.list-into>li{
+	display: flex;
+	border-bottom: 1px solid #e4eaec;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.list-into>li:not(:first-child){
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.list-into>li>div{
+	display: inline-block;
+	width: 78%;
+}
+.list-into>li>div:first-child{
+	display: inline-block;
+	width: 23%;
+}
+.list-into img{
+	width:90%;
+}
+.list-into>li a{
+	font-size: 22px;
+	color: #2a333c;
+	text-shadow: rgba(0,0,0,.15) 0 0 1px;
+}
+/*动画效果*/
+/*translate平移、scale缩放、rotate旋转*/
+.content img{
+	transition: opacity 2s;
+	transition: 0.6s;
+	opacity: 1;
+}
+.content img:hover{
+	/*transform:rotate(360deg) translateY(-100%) rotateX(90deg);
+	transform-origin: center bottom 0;*/
+	opacity: .3;
+	transition-duration: 2s;
+	transform: scale(1.2);
+}
+.content a:hover{
+	color: #4a90d1;
+	text-decoration: underline;
+}
+.list-into>li p{
+	 font-size: 16px;
+	 font-weight: 300;
+	 margin-top: 20px;
+	 color: #76838f;
+	 /*自动换行*/
+	 word-wrap: break-word;
+	 /*letter-spacing检索或设置对象中的文字之间的间隔letter-spacing: 1px;*/
+	 line-height: 25px;
+	padding: 0 10px;
+ }
+.list-into>li>div>p:last-child{
+	margin-top: 10px;
+	color: #a3afb7;
+}
+.list-into>li>div>p span:not(:first-child){
+	margin-left: 10px;
+}
+.list-into>li span i{
+	color: #a3afb7;
+	font-weight: 300;
+}
+/*btn ------   分页*/
+.btn{
+	text-align: center;
+	margin-top: 20px ;
+}
+.btn a{
+	border:1px solid #e4eaec;
+	padding: 10px 15px;
+}
+.btn a:hover{
+	background: #f5f5f5;
+	color: #000;
+	text-decoration: none;
+}
+.btn a:focus{
+	background: #62a8ea;
+	color: #fff;
+}
+/*search --- div*/
+
+div.content>div:last-child{
+	width:21%;
+	margin-right: 85px;
+	height: 50%;
+}
+div.content>div:last-child>div{
+	width: 85%;
+	margin: 20px auto;
+}
+div.content>div:last-child div.search{
+	width: 100%;
+	position: relative;
+}
+div.content>div:last-child div.search>input{
+	border: 1px solid #e4eaec;
+	border-radius: 200px;
+	padding: 9px;
+	padding-left: 15px;
+	display: block;
+	width: 100%;
+	color: #76838f;
+}
+div.search button{
+	background:#fff;
+	border:none;
+	position: absolute;
+	top: 9px;
+	right: 10px;
+}
+div.for-you{
+	border-top: 1px solid #e4eaec;
+	border-bottom: 1px solid #e4eaec;
+	margin:20px 0;
+	padding: 10px 0;
+}
+div.for-you>p:first-child{
+	font-size: 18px;
+	font-weight: 300;
+	padding: 10px 0;
+}
+div.for-you>p{
+	padding: 13px 0;
+}
+div.for-you>p:not(:first-child){
+	border:1px solid #e4eaec;
+	border-bottom: none;
+	text-shadow: none;
+	padding: 15px;
+	color: #2a333c;
+	font-size: 15px;
+}
+div.for-you>p:last-child{
+	border-bottom: 1px solid #e4eaec;
+	margin-bottom: 10px;
+}
+div.all>p{
+	text-shadow: none;
+	padding-bottom: 13px;
+	font-size: 16px;
+}

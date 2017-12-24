@@ -1,0 +1,158 @@
+#body1{
+	width: 100%;
+	background-color: #efefef;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 50px 0;
+}
+div.form1{
+	margin:0 auto;
+	width: 68%;
+	height: auto;
+}
+div.form1>form{
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	background: #fff;
+	font-size: 18px;
+	border: 1px solid #fff;
+}
+div.form1>form>div{
+	margin-top: 30px;
+	margin-left: 30px;
+	width: 88%;
+	border: 1px solid #ccc;	
+	height: 40px;
+	font-size: 14px;
+}
+div.form1>form>div~div{
+	margin-top: 15px;
+	margin-left: 30px;
+	width: 88%;
+	border: 1px solid #ccc;	
+	height: 40px;
+	font-size: 14px;
+}
+input{
+	padding-left: 7px;
+	font-size: 14px;
+}
+span.input-group-addon {
+    padding-top: 11px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #553;
+    text-align: center;
+    background-color: #eee;
+    border-right: 1px solid #ccc;
+    display: inline-block;
+    width: 45px;
+    height: 100%;
+    box-sizing: border-box;
+}
+span.input-group-addon>i{
+	font-size: 18px;
+	color: #aaa;
+}
+div.form1>form>div.checkcode{
+	border:none;
+	margin-top: 15px;
+	margin-left: 30px;
+	width: 88%;
+	height: 40px;
+}
+form>div.checkcode>div:first-child{
+	width: 63%;
+	height: 100%;
+	border:1px solid #ccc;
+	display: block;
+	float: left;
+}
+span.msg{
+	display: none;
+}
+span.msg-default{
+	display: block;
+	color:#666;
+}
+span.msg-error{
+	display: block;
+	color: red;
+}
+span.msg-success{
+	display: block;
+	color:#0d0;
+}
+div>img{
+	height: 40px;
+	cursor: pointer;
+	display: block;
+    width: 130px;
+    float: right;
+}
+div.form1>form>div.more{
+	border:none;	
+    position: relative;    
+}
+div>form>div.more>span{
+	color: #777;
+	position: absolute;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    left: 50%;
+    margin-left: -50px;
+    top: -15px;
+    width: 100px;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 14px;
+}
+hr{
+	margin-top: 40px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}	
+div.form1>form>div.com-name{
+	margin-top: 0;
+	border:none;
+}
+div.form1>form>div.com-name~div{
+	margin-top: 30px;
+	border:none;
+}
+div.form1>form>div.com>span{
+	display: inline-block;
+	width: 18%;
+	height: 40px;
+	padding-top: 10px;
+}
+div.form1>form>div.com>input{
+	width: 72%;
+	border: 1px solid #ccc;	
+	height: 40px;
+	font-size: 14px;
+	//display: inline-block;
+	float: right;
+	padding-left: 13px;
+}
+div.form1>form>div.sign>input{
+	width: 100%;
+	border: 1px solid #2e6da4;
+	height: 45px;
+	font-size: 18px;
+	cursor: pointer;
+	color: #fff;
+    background-color: #337ab7;
+}
+div.form1>form>div.sign>input:hover{
+    background-color: #286090;
+    border-color: #204d74;
+}
+div.form1>form>div.sign+div>a{
+	color:#337ab7;
+	float: right;
+}

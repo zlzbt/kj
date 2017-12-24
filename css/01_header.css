@@ -1,0 +1,114 @@
+#header{
+	height:57px;
+	width:90%;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+	vertical-align: middle;
+	padding-left: 20px;
+}
+ .logo{
+	display:inline-block;
+	width:53%;
+}
+.logo>a{
+	display: block;
+	line-height: 57px;
+}
+.logo>a>img{
+	height:50px;
+	vertical-align: middle;
+}
+.list{
+	position:relative;
+	width:60%;
+	height:57px;
+	display:flex;
+	justify-content:space-between;
+}
+.list>ul{
+	display:flex;
+	justify-content:space-between;
+	width:68%;
+	height:60px;
+	line-height: 60px;
+}
+.list>ul>li:first-child>a{
+	color:#4e97d9;
+}
+.list>ul>li a:hover{
+	color:#4e97d9 ;
+}
+.list>ul>li a:focus{
+	color:#4e97d9 ;
+}
+.list>div{
+	width:30%;
+	line-height: 60px;
+	text-align: center;
+}
+.list>div>a{
+	width:30%;
+	height:36px;
+	border:1px solid  #62a8ea;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+    line-height:36px;
+	margin: 0 3px;
+	font-size: 14px;
+}
+.creat{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle;
+	border-top: 4px dashed;
+	border-top: 4px solid\9;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+}
+/*下拉框*/
+.drop_down{position: relative}
+.dropdown_menu{
+	position: absolute;
+	top: 63px;
+	left: -90px;
+	z-index: 100;
+	height:0; opacity:0;
+	width: 164px;
+	overflow:hidden;
+	transition:all 0.3s linear;
+	background: #fff;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+.dropdown_menu>li{
+	height:40px;
+	line-height: 40px;
+}
+/*注册登录*/
+.list>div>a.sign_up{
+	color: #fff;
+    background-color: #46be8a;
+    border-color: #46be8a;
+}
+.list>div>a.sign_up:hover {
+    background-color:rgb(54, 155, 111);
+    border-color:rgb(52, 147, 106);
+}
+.list>div>a.sign_in{
+	color:#62a8ea
+}  
+
+.list>div>a.sign_in:focus{
+	color: #fff;
+    background-color: #62a8ea;
+    border-color: #62a8ea;
+} 
+.list>div>a.sign_in:hover{
+	color: #fff;
+    background-color: #62a8ea;
+    border-color: #62a8ea;
+}

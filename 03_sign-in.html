@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/03_sign-in.css">
+</head>
+<body>
+<div id="main">
+	<div id="header">
+		<div class="left">
+			<ul class="list">
+				<li>
+					<a href="04_firstPage.html">
+						<img src="img/logo.png">
+					</a>
+				</li>
+				<li><span>|</span>会员登录</li>
+			</ul>
+		</div>
+		<div class="right">
+			<a href="04_firstPage.html">返回首页</a>
+		</div>
+	</div>
+	<div id="body">
+		<div class="form">
+			<form method="post" action="#" class="info">
+				<div>
+					<input type="text" name="uname" placeholder="用户名" required>
+					<br/>
+					<span name="u" class="up"></span>
+				</div>
+				<div>
+					<input type="password" name="upwd" placeholder="密码" required>
+					<br/>
+					<span name="p" class="up"></span>
+				</div>
+				<div>
+					<a href="#">忘记密码？</a>
+				</div>
+				<div class="sign-in">
+					<input name="submit" type="button" value="登录">
+				</div>	
+				<div class="sign-up">
+					<a href="03_sign-up.html"><input type="button" value="没有账号？现在去注册"></a>
+				</div>					
+			</form>
+		</div>
+	</div>
+	<div id="footer">
+		<p>  &nbsp;科技公司 版权所有 © 2008-2016 湘ICP备8888888</p>
+		<p>本页面内容为网站演示数据，前台页面内容都可以在后台修改。</p>
+	</div>
+</div>
+</body>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/03_sign-in.js"></script>
+</html>

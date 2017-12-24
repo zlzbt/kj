@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>关于我们</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/01_header.css"/>
+    <link rel="stylesheet" href="css/02_footer.css"/>
+    <link rel="stylesheet" href="css/08_about.css">
+</head>
+<body>
+<div id="main">
+    <div id="header"></div>
+    <p>关于</p>
+    <div class="our-link">
+        <ul>
+            <li class="title"><a href="08_about.html">关于我们</a></li>
+            <li class="title"><a href="08_about_link.html">联系我们</a></li>
+            <li class="title"><a href="08_about_join.html">加入我们</a></li>
+            <li class="title"><a href="08_about_view.html">意见反馈</a></li>
+        </ul>
+    </div>
+    <div class="about about-view">
+        <div id="view" >
+            <div class="view-type">
+                <div class="type">
+                    <p>反馈类型</p>
+                </div>
+                <div class="type">
+                    <div class="radio-custom">
+                        <input type="radio" placeholder="产品建议" id="suggest" name="1"/>
+                        <label for="suggest">产品建议</label>
+                    </div>
+                    <div class="radio-custom">
+                        <input type="radio" placeholder="网站设计" id="web-style" name="1"/>
+                        <label for="web-style">网站设计</label>
+                    </div>
+                    <div class="radio-custom">
+                        <input type="radio" placeholder="文章内容" id="content" name="1"/>
+                        <label for="content">文章内容</label>
+                    </div>
+                    <div class="radio-custom">
+                        <input type="radio" placeholder="其他" id="other" name="1"/>
+                        <label for="other">其他</label>
+                    </div>
+                </div>
+                <div class="type text">
+                    <textarea rows="5" placeholder="反馈内容"></textarea>
+                </div>
+                <div class="type emil">
+                    <input type="text" placeholder="您的邮箱"/>
+                </div>
+                <div class="type code">
+                    <input type="text" placeholder="验证码"/>
+                </div>
+                <div class="type submit">
+                    <a href="#">提交</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</div>
+<script src="js/ajax.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/01_header.js"></script>
+<script src="js/02_footer.js"></script>
+</body>
+</html>

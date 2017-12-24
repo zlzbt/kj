@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>产品详情</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/01_header.css"/>
+    <link rel="stylesheet" href="css/09_product-detail.css">
+    <link rel="stylesheet" href="css/02_footer.css"/>
+</head>
+<body>
+<div id="main">
+    <div id="header"></div>
+    <div class="leader">
+        <ol class="drop">
+            <li>
+                <span class="fa fa-home"></span>
+                <a href="04_firstPage.html">首页</a>
+                <span>/</span>
+            </li>
+            <li>
+                <div class="dropdown1 active">
+                    <a href="#" title="产品" data-trigger="dropdown1">产品
+                        <span class="creat"></span>
+                    </a>
+                    <ol class="dropdown-menu1">
+                        <li class="active"><a href="#">智能手表</a></li>
+                        <li><a href="#">智能眼睛</a></li>
+                        <li><a href="#">机器人</a></li>
+                        <li><a href="#">体感车</a></li>
+                        <li><a href="#">无人机</a></li>
+                    </ol>
+                </div>
+            </li>
+            <li>
+                <!--<span>/</span>-->
+                <!--<a href="#">智能眼镜</a>-->
+                <span id="fname"></span>
+            </li>
+        </ol>
+    </div>
+    <!--产品详情-->
+    <div class="product_detail">
+        <div class="detail-pic">
+            <div class="pic thumb">
+                <img src="img/thumb1.jpg" id="Img">
+            </div>
+            <ul class="sm-pic">
+                <li class="active"><img src="img/thumb1_1sm.jpg" style="width: 60px;height: 60px"></li>
+                <li><img src="img/thumb1_2sm.jpg" style="width: 60px;height: 60px"></li>
+                <li><img src="img/thumb1_3sm.jpg"></li>
+                <li><img src="img/thumb1_4sm.jpg"></li>
+                <li><img src="img/thumb1_5sm.jpg"></li>
+                <li><img src="img/thumb1_6sm.jpg"></li>
+            </ul>
+        </div>
+        <div class="detail">
+            <h1>Apple Watch Sport</h1>
+            <div class="price">2288.00元</div>
+            <p>选择颜色</p>
+            <ul class="color-size">
+                <li>
+                    <a href="#" class="choose">黑色</a>
+                </li>
+                <li>
+                    <a href="#">白色</a>
+                </li>
+                <li>
+                    <a href="#">宝蓝色</a>
+                </li>
+                <li>
+                    <a href="#">橙色</a>
+                </li>
+                <li>
+                    <a href="#">黄色</a>
+                </li>
+            </ul>
+            <p>表壳尺寸</p>
+            <ul class="color-size">
+                <li>
+                    <a href="#" class="click">38毫米</a>
+                </li>
+                <li>
+                    <a href="#">40毫米</a>
+                </li>
+            </ul>
+            <p>数量
+            <div class="count">
+                <button class="numberMinus">-</button>
+                <input type="text" value="1" class="number" id="buy-num">
+                <button class="numberAdd">+</button>
+            </div>
+            <p>库存99</p>
+            <ul class="cart">
+                <li>
+                    <span class="fa fa-cart-plus"></span>
+                    <a href="#">加入购物车</a>
+                </li>
+                <li>
+                    <span class="fa fa-heart-o"></span>
+                    <a href="#">加入收藏</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--产品简介-->
+    <div class="pro-into">
+        <div class="into">
+
+        </div>
+        <div class="hot">
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+    <script src="js/ajax.js"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/01_header.js"></script>
+    <script src="js/09_product-detail.js"></script>
+    <script src="js/02_footer.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,209 @@
+#main>p{
+	width: 100%;
+	height: 120px;
+	color:#fff;
+	background: #62a8ea;
+	text-align: center;
+	line-height: 120px;
+	font-size: 35px;
+	font-weight: 300;
+	text-shadow: none;
+	margin-top: 3px;
+}
+#main>div.link{
+	padding: 16px 0;
+	font-size: 16px;
+	font-weight: 300;
+	color: #90939b;
+	text-align: center;
+	border-bottom: 1px solid  #f5f5f5;
+}
+#main>div.link>a{
+	padding: 0 10px;
+}
+#main>div.link>a:hover{
+	color: #4e97d9;
+}
+#main>div.link>a:focus{
+	color: #4e97d9;
+}
+/*售后政策*/
+.ser-do{
+	/*position: relative;*/
+}
+#service{
+	/*position: absolute;*/
+	width: 82%;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.8;
+	color: #222;
+	word-wrap: break-word;
+	margin: 0 auto;
+}
+#service>div:first-child{
+	text-align: center;
+	padding: 100px 0;
+}
+#service>div:first-child p{
+	padding: 8px 0;
+}
+#service>div:nth-child(2){
+	border-top: 1px solid #e4eaec;
+	padding: 30px 0;
+}
+#service>div:last-child{
+	padding: 30px 0;
+}
+#service>div:last-child ul{
+	padding-top:8px;
+	list-style: disc;
+	padding-left: 40px;
+	margin-bottom: 38px;
+}
+#service>div:last-child ul>li{
+	padding: 8px 0 ;
+}
+
+/*相关下载*/
+#down-load{
+	background: #f2f2f2;
+	/*position: absolute;*/
+}
+#down-load>div{
+	border-bottom: 1px solid #f2f2f2;
+	display: flex;
+	justify-content: space-between;
+	width: 88%;
+	margin: 0 auto;
+}
+#down-load>div>div{
+	background: #FFF;
+	display: inline-block;
+	color: #2a333c;
+	font-size: 16px;
+	text-shadow: rgba(0,0,0,.15) 0 0 1px;
+	border: 1px solid #fff;
+	height: 430px;
+	margin: 30px 10px;
+}
+#down-load>div>div:first-child{
+	width:73%;
+	padding-top: 60px;
+}
+#down-load>div>div a:hover{
+	color:#4e97d9;
+	text-decoration:underline;
+}
+#down-load div.down1,div.down2,div.down3{
+	width:90%;
+	margin: 30px auto;
+	display:flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #f2f2f2;
+	padding-bottom: 30px;
+}
+#down-load div.down1{
+	margin-top: 0;
+}
+#down-load>div>div>div>div:first-child{
+	position: relative;
+	width: 40%;
+}
+#down-load>div a.down{
+	display: inline-block;
+	position: absolute;
+	top:1px;
+	padding-left: 10px;
+}
+#down-load>div a.down{
+	display: inline-block;
+	position: absolute;
+	top:0;
+	padding-left: 15px;
+}
+#down-load>div>div a>i{
+	display: inline-block;
+	font-size: 38px;
+	color: rgb(163, 175, 183);
+}
+#down-load>div>div>div>div>a:first-child:hover{
+	text-decoration: none;
+}
+#down-load>div>div span{
+	font-size: 13px;
+	color: rgb(118, 131, 143);
+	position: absolute;
+	text-shadow:none;
+	top:27px;
+	padding-left: 15px;
+}
+#down-load div>div a.down-now{
+	color: rgb(98, 168, 234);
+	font-size: 14px;
+	text-shadow:none;
+	border: 1px solid;
+	padding: 8px 14px;
+	line-height: 50px;
+}
+#down-load div>div a.down-now:hover{
+	color:#fff;
+	background:rgb(98, 168, 234);
+}
+/*search --- div*/
+#down-load>div>div:last-child{
+	width:23%;
+	position: relative;
+}
+#down-load>div>div:last-child>div{
+	width: 85%;
+	margin: 20px auto;
+}
+#down-load>div>div:last-child div.search{
+	width: 100%;
+}
+#down-load>div>div:last-child div.search>input{
+	border: 1px solid #e4eaec;
+	border-radius: 200px;
+	padding: 9px;
+	padding-left: 15px;
+	display: block;
+	width: 100%;
+	color: #76838f;
+}
+#down-load>div>div:last-child div.search button{
+	background:#fff;
+	border:none;
+	position: absolute;
+	top: 9px;
+	right: 10px;
+}
+div.for-you{
+	border-top: 1px solid #e4eaec;
+	border-bottom: 1px solid #e4eaec;
+	margin:20px 0;
+	padding: 10px 0;
+}
+div.for-you>p:first-child{
+	font-size: 18px;
+	font-weight: 300;
+	padding: 10px 0;
+}
+div.for-you>p{
+	padding: 13px 0;
+}
+div.for-you>p:not(:first-child){
+	border:1px solid #e4eaec;
+	border-bottom: none;
+	text-shadow: none;
+	font-size:14px;
+	padding-left: 10px;
+}
+div.for-you>p:last-child{
+	border-bottom: 1px solid #e4eaec;
+	margin-bottom: 10px;
+}
+div.all>p{
+	text-shadow: none;
+	padding-bottom: 10px;
+}
